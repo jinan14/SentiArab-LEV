@@ -1,20 +1,36 @@
-# Data Science and Analysis
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=0.24.0
+# Notebook target: Python 3.10-3.12.
+# CAMeL Tools currently requires Python <3.13, and google-colab is provided by Colab.
 
-# NLP and Text Processing
-nltk>=3.6.0
-transformers>=4.0.0
+# Core data science
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
 
-# Visualization
-matplotlib>=3.4.0
-seaborn>=0.11.0
-plotly>=5.0.0
+# NLP and Arabic text processing
+nltk==3.9.1
+camel-tools==1.5.7
+PyArabic==0.6.15
+emoji==2.15.0
 
-# Jupyter
-jupyter>=1.0.0
-notebook>=6.4.0
+# Transformer / CAMeL-BERT modeling
+torch==2.12.0
+transformers==4.57.6
+datasets==4.8.5
+accelerate==1.13.0
+sentencepiece==0.2.1
 
-# Other Utilities
-python-dotenv>=0.19.0
+# Visualization and Arabic rendering
+matplotlib==3.10.0
+seaborn==0.13.2
+wordcloud==1.9.6
+arabic-reshaper==3.0.1
+python-bidi==0.6.10
+
+# OpenAI GPT evaluation
+openai==2.39.0
+
+# Notebook runtime
+jupyter==1.1.1
+notebook==7.3.2
+tqdm==4.67.1
